@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1456194922">
+    <project timestamp="1456194922">
+        <package name="AppBundle\Annotation">
+            <file name="/var/lib/jenkins/jobs/coverage-login/workspace/app/src/AppBundle/Annotation/ApiTranslate.php">
+                <class name="ApiTranslate" namespace="AppBundle\Annotation" fullPackage="AppBundle" package="AppBundle">
+                    <metrics methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="3" elements="6" coveredelements="4"/>
+                </class>
+                <line num="22" type="method" name="getTranslationDomain" crap="2" count="8"/>
+                <line num="24" type="stmt" count="8"/>
+                <line num="25" type="stmt" count="1"/>
+                <line num="28" type="stmt" count="7"/>
+                <line num="33" type="method" name="getName" crap="2" count="0"/>
+                <line num="35" type="stmt" count="0"/>
+                <metrics loc="37" ncloc="23" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="3" elements="6" coveredelements="4"/>
+            </file>
+        </package>
+        <metrics files="111" loc="8314" ncloc="5493" classes="98" methods="270" coveredmethods="198" conditionals="0" coveredconditionals="0" statements="2202" coveredstatements="1618" elements="2472" coveredelements="1816"/>
+    </project>
+</coverage>

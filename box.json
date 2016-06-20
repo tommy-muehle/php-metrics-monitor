@@ -1,0 +1,16 @@
+{
+  "alias": "memo.phar",
+  "chmod": "0755",
+  "directories": ["src", "public", "resources"],
+  "files": ["LICENSE", "README.md"],
+  "finder": [
+    {
+      "name": "*.php",
+      "exclude": ["Tests", "tests"],
+      "in": "vendor"
+    }
+  ],
+  "main": "bin/memo",
+  "output": "build/memo.phar",
+  "stub": true
+}

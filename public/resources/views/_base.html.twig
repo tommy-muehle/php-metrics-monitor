@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+    {% block head %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="https://github.com/tommy-muehle/php-metrics-monitor">
+    <meta name="author" content="https://github.com/tommy-muehle">
+
+    <title>{% block title %}{% endblock %}</title>
+
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/page.css" />
+
+    {% block javascripts %}{% endblock %}
+
+    {% endblock %}
+</head>
+<body>
+
+{% block nav %}
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-left">
+            <li {% if page == "home" %}class="active"{% endif %}><a href="/">Home</a></li>
+            <li {% if page == "coverage" %}class="active"{% endif %}><a href="/coverage">Coverage</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://github.com/tommy-muehle/php-metrics-monitor/wiki" target="_blank">Documentation</a></li>
+            <li><a href="https://github.com/tommy-muehle/php-metrics-monitor/graphs/contributors" target="_blank">Contributors</a></li>
+            <li><a href="https://github.com/tommy-muehle/php-metrics-monitor/issues" target="_blank">Report an issue</a></li>
+        </ul>
+    </div>
+</nav>
+{% endblock %}
+
+{% block content %}{% endblock %}
+
+<footer class="footer">
+    <div class="container-fluid">
+        {% block footer %}
+            <p class="text-muted"></p>
+        {% endblock %}
+    </div>
+</footer>

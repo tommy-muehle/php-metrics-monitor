@@ -1,0 +1,22 @@
+{% extends "_base.html.twig" %}
+{% set page = "home" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="jumbotron" style="margin-top: 5em">
+        <h1>Welcome to Metrics-Monitor!</h1>
+    </div>
+
+    {{ readme|raw }}
+</div>
+{% endblock %}
+
+{% block footer %}
+<p class="text-muted">
+    Version: {{ version }}
+</p>
+{% endblock %}
