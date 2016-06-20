@@ -10,6 +10,10 @@ At the time it can visualize the the following metrics:
 
 Further metrics are planned. Please look at the [roadmap](#roadmap).
 
+## Demo
+
+![demo](resources/memo.gif)
+
 ## <a name="install"></a> Install
 
 ### As Phar (Recommended)
