@@ -20,7 +20,7 @@ abstract class Application extends BaseApplication
     {
         parent::__construct($values);
 
-        $this['version'] = '1.0.0';
+        $this['version'] = '1.0.1';
 
         $this->register(new DoctrineServiceProvider, ['db.options' => [
             'dbname' => 'data',
