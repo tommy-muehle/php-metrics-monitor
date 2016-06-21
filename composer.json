@@ -22,7 +22,7 @@
   ],
   "license": "MIT",
   "require": {
-    "php": ">=5.4",
+    "php": ">=5.5",
     "ext-dom": "*",
     "silex/silex": "^1.0",
     "symfony/console": "~2.1",
