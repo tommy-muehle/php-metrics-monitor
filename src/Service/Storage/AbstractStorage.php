@@ -4,6 +4,9 @@ namespace MetricsMonitor\Service\Storage;
 
 use Doctrine\DBAL\Connection;
 
+/**
+ * @package MetricsMonitor\Service\Storage
+ */
 abstract class AbstractStorage
 {
     /**
@@ -11,6 +14,9 @@ abstract class AbstractStorage
      */
     protected $connection;
 
+    /**
+     * @param Connection $connection
+     */
     public function __construct(Connection $connection)
     {
         $this->connection = $connection;
