@@ -18,3 +18,9 @@ script:
   - ./bin/phpunit
 notifications:
   email: false
+  webhooks:
+    urls:
+      - https://webhooks.gitter.im/e/1e1d3686ffbd143cedd7
+    on_success: always
+    on_failure: always
+    on_start: never

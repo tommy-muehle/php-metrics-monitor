@@ -1,6 +1,7 @@
 # php-metrics-monitor
 
 [![Build Status](https://travis-ci.org/tommy-muehle/php-metrics-monitor.svg?branch=master)](https://travis-ci.org/tommy-muehle/php-metrics-monitor)
+[![Gitter](https://badges.gitter.im/tommy-muehle/php-metrics-monitor.svg)](https://gitter.im/tommy-muehle/php-metrics-monitor?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 The metrics-monitor is a simple tool to visualize metrics across various projects.
 So you can see the trend on one monitor.
