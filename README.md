@@ -25,7 +25,7 @@ to contact me.
 You can install the monitor with these two simple commands:
 
 ```
-$ curl -Os https://github.com/tommy-muehle/php-metrics-monitor/releases/download/1.0.0/memo.phar
+$ curl -OsL https://github.com/tommy-muehle/php-metrics-monitor/releases/download/1.0.0/memo.phar
 $ chmod +x memo.phar
 ```
 
